@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media print {
+	
+	* { color: #000 !important }
+	
+	#myTopnav { display: none }
+	
+
+	#gradient { display: none }
+	
+	main, footer, .content-wrap, .background, .service, .content-wrap-svc, .flex-container-svc, .contact {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	* { float: none }
+	
+	.content-wrap .header-img2 {
+  		display: none;
+	}
+	
+	.svcs-img {
+		height: 100px;
+	}
+	
+#contact-social .button-a {
+	margin-left: 0px;
+}
+#contact-social .button-a:hover {
+	margin-left: 0px;
+}
+
+#contact-social .button-a, #contact-social .button-b, #contact-social .button-c, #contact-social .button-d, #contact-social .button-e {
+	margin-top: 5px;
+	margin-left: -15px;
+}
+
+#contact-social .button-a:hover, #contact-social .button-b:hover, #contact-social .button-c:hover, #contact-social .button-d:hover, #contact-social .button-e:hover {
+	margin-top: 5px;
+	margin-left: -15px;
+}
+	
+	header .col-wide {
+		background-image: url(../images/JBGDLogoTextOnlyPNG.png);
+	}
+
+	#logo {
+	display: inline;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0;
+	width: 112px;
+	height: 50px;
+		
+	}
+
+	#contact-social a:after {
+		content: " (" attr(href) ") ";
+		font-size: 8px;
+	}
+	
+	#contact-info {
+		display: none;
+	}
+	
+	#email {
+		display: inline;
+	}
+	
+	figcaption {
+		font-size: 16px;
+	}
+	
+	.content-wrap-svc {
+		margin-top: 40px;
+	}
+}
